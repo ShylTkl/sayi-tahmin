@@ -6,6 +6,7 @@
 }
 
 body {
+    overflow: hidden;
     background-color: rgb(238,174,202);
     background-color: radial-gradient(circle, rgba(238,174,202,1) 16%, rgba(208,219,224,1) 67%, rgba(148,187,233,1) 100%);
 }
@@ -52,11 +53,27 @@ h1{
 
 }
 .container{
-    height: 400px;
+    height: 300px;
+    text-align: center;
 }
 
 h3{
     text-align: center;
     position: relative;
     top: -250px;
+}
+
+#sonuc{
+    text-align: center;
+    position: relative;
+    top: -250px;
+    background-color:rgb(238,174,202);
+    border: none;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.hGiris{
+    margin-top: 30px;
+    display: inline-block;
 }
