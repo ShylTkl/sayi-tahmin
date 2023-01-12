@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(238,174,202);
+    background-color: radial-gradient(circle, rgba(238,174,202,1) 16%, rgba(208,219,224,1) 67%, rgba(148,187,233,1) 100%);
+}
+
+h1{
+    text-align: center;
+    margin: 50px;
+}
+
+
+.giris{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#yaz{
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+}
+
+
+#buton{
+    height: 25px;
+    width: 60px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(128, 128, 218);
+}
+
+.imaj{
+    text-align: center;
+}
+
+.sapka{
+    text-align: center;
+    position: relative;
+    top: -300px;
+}
+
+.takke{
+    z-index: 1;
+
+}
+.container{
+    height: 400px;
+}
+
+h3{
+    text-align: center;
+    position: relative;
+    top: -250px;
+}
